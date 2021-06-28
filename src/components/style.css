@@ -1,0 +1,147 @@
+/* .vhr{
+	border-left: 0px solid #fff;
+	height: 100px;
+	opacity:0.5;
+} */
+.lg{
+	display: flex;
+	justify-content: space-between;
+    /* border: 1px solid yellow; */
+    	height: 31rem;
+    	width: 70rem;
+    	margin: 16rem auto;
+    	padding: 6rem 3rem;
+}
+.lg-form{
+	width: 29rem;
+	height: 20rem;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 3rem;
+}
+.lg-li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 22px 0;
+}
+
+.lg-input{
+	border: 1px solid #fff;
+	width: 18rem;
+	height: 2rem;
+	border-radius: 3px;
+	padding: 0 1rem;
+	color: #fff;
+}
+.lg-pass{
+	position: relative;
+	padding-right: 2.5rem;
+}
+.pass-i{
+	position: absolute;
+	right: 66rem;
+	font-size: 18pt;
+}
+.pass-i:hover{
+	cursor: pointer;
+}
+
+.rg-input{
+	border: 1px solid #fff;
+	width: 18rem;
+	height: 2rem;
+	border-radius: 3px;
+	padding: 0 1rem;
+	color: #fff;
+}
+.rg-pass{
+	position: relative;
+	padding-right: 2.5rem;
+}
+.pass-ir{
+	position: absolute;
+	right: 31rem;
+	font-size: 18pt;
+}
+.pass-ir:hover{
+	cursor: pointer;
+}
+.btn-lg{
+	background: #fff;
+	border: none;
+	padding: 6px 45px;
+	color: #262a3b;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.btn-lg:hover, .btn-lg:focus{
+	cursor: pointer;
+	outline: none;
+}
+
+/*Nav */
+.nav-li{
+	list-style-type: none;
+	color: #fff;
+	margin-bottom: 1rem;
+}
+.nav-li:hover{
+	cursor: pointer;
+}
+
+/* Home */
+.hm{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 2rem 0 0 0;
+	gap: 15rem;
+}
+.hm-icons{
+	display: flex;
+	gap: 1rem;
+	justify-content: flex-end;
+	color: #fff;
+	margin: 1rem 36rem 0;
+	font-size: 15pt;
+}
+.hm-icons:hover{
+	cursor: pointer;
+}
+
+/* Newsfeed */
+.nf{
+	color: #fff;
+}
+
+
+/* Ads */
+.ad{
+	color: #fff;
+}
+
+/* Profile */
+.pf{
+	color: white;
+}
+.pf-img{
+	border: 1px solid #fff;
+	width: 125px;
+	height: 125px;
+	margin-bottom: 1rem;
+}
+.pf-name{
+	margin-bottom: 2rem;
+}
+
+/* Footer */
+.ft{
+	display: flex;
+	margin: 1rem 34rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.ft p{
+	color: #4b5270;
+}
